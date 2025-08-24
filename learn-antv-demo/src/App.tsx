@@ -37,6 +37,11 @@ function App() {
       {/* Render the Bar chart */}
       {/* 渲染柱状图 */}
       <Bar {...config} />
+      <div style={{ color: '#888', fontSize: 14 }}>
+        <p>数据格式：</p>
+        <pre>{JSON.stringify(data, null, 2)}</pre>
+        <p>你可以在 <code>src/App.tsx</code> 修改数据和配置项，实时查看效果。</p>
+      </div>
     </div>
   );
 }
