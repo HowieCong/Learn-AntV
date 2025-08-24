@@ -8,5 +8,14 @@
   "radar": "雷达图",
   "home": "首页",
   "charts": "基础图表教学与实战",
-  "barChartExample": "AntV 柱状图示例"
+  "barChartExample": "AntV 柱状图示例",
+  "interactiveGallery": "交互式图表展示",
+  "autoPlaying": "自动轮播中",
+  "manualBrowsing": "手动浏览",
+  "gridView": "📊 网格视图",
+  "singleView": "🔍 单图视图",
+  "pauseCarousel": "⏸️ 暂停轮播",
+  "startCarousel": "▶️ 开始轮播",
+  "keyboardControlSingle": "键盘控制: 空格键暂停/播放 | ← → 切换图表 | G键切换视图",
+  "keyboardControlGrid": "键盘控制: G键切换视图 | 点击图表进行交互"
 }

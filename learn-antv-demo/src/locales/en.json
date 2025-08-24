@@ -8,5 +8,14 @@
   "radar": "Radar Chart",
   "home": "Home",
   "charts": "Basic Chart Tutorial",
-  "barChartExample": "AntV Bar Chart Example"
+  "barChartExample": "AntV Bar Chart Example",
+  "interactiveGallery": "Interactive Chart Gallery",
+  "autoPlaying": "Auto Playing",
+  "manualBrowsing": "Manual Browsing",
+  "gridView": "📊 Grid View",
+  "singleView": "🔍 Single View",
+  "pauseCarousel": "⏸️ Pause",
+  "startCarousel": "▶️ Play",
+  "keyboardControlSingle": "Keyboard: Space to pause/play | ← → to switch charts | G to toggle view",
+  "keyboardControlGrid": "Keyboard: G to toggle view | Click charts to interact"
 }
