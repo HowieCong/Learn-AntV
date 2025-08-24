@@ -1,0 +1,182 @@
+{
+  "barData": {
+    "zh": [
+      { "type": "产品A", "value": 85 },
+      { "type": "产品B", "value": 126 },
+      { "type": "产品C", "value": 98 },
+      { "type": "产品D", "value": 142 },
+      { "type": "产品E", "value": 76 },
+      { "type": "产品F", "value": 163 },
+      { "type": "产品G", "value": 111 }
+    ],
+    "en": [
+      { "type": "Product Alpha", "value": 85 },
+      { "type": "Product Beta", "value": 126 },
+      { "type": "Product Gamma", "value": 98 },
+      { "type": "Product Delta", "value": 142 },
+      { "type": "Product Epsilon", "value": 76 },
+      { "type": "Product Zeta", "value": 163 },
+      { "type": "Product Eta", "value": 111 }
+    ]
+  },
+  "lineData": {
+    "zh": [
+      { "month": "一月", "value": 30, "name": "系列A" },
+      { "month": "二月", "value": 40, "name": "系列A" },
+      { "month": "三月", "value": 35, "name": "系列A" },
+      { "month": "四月", "value": 50, "name": "系列A" },
+      { "month": "五月", "value": 49, "name": "系列A" },
+      { "month": "六月", "value": 60, "name": "系列A" },
+      { "month": "一月", "value": 20, "name": "系列B" },
+      { "month": "二月", "value": 28, "name": "系列B" },
+      { "month": "三月", "value": 38, "name": "系列B" },
+      { "month": "四月", "value": 34, "name": "系列B" },
+      { "month": "五月", "value": 44, "name": "系列B" },
+      { "month": "六月", "value": 52, "name": "系列B" },
+      { "month": "一月", "value": 15, "name": "系列C" },
+      { "month": "二月", "value": 25, "name": "系列C" },
+      { "month": "三月", "value": 30, "name": "系列C" },
+      { "month": "四月", "value": 38, "name": "系列C" },
+      { "month": "五月", "value": 42, "name": "系列C" },
+      { "month": "六月", "value": 48, "name": "系列C" }
+    ],
+    "en": [
+      { "month": "Jan", "value": 30, "name": "Series A" },
+      { "month": "Feb", "value": 40, "name": "Series A" },
+      { "month": "Mar", "value": 35, "name": "Series A" },
+      { "month": "Apr", "value": 50, "name": "Series A" },
+      { "month": "May", "value": 49, "name": "Series A" },
+      { "month": "Jun", "value": 60, "name": "Series A" },
+      { "month": "Jan", "value": 20, "name": "Series B" },
+      { "month": "Feb", "value": 28, "name": "Series B" },
+      { "month": "Mar", "value": 38, "name": "Series B" },
+      { "month": "Apr", "value": 34, "name": "Series B" },
+      { "month": "May", "value": 44, "name": "Series B" },
+      { "month": "Jun", "value": 52, "name": "Series B" },
+      { "month": "Jan", "value": 15, "name": "Series C" },
+      { "month": "Feb", "value": 25, "name": "Series C" },
+      { "month": "Mar", "value": 30, "name": "Series C" },
+      { "month": "Apr", "value": 38, "name": "Series C" },
+      { "month": "May", "value": 42, "name": "Series C" },
+      { "month": "Jun", "value": 48, "name": "Series C" }
+    ]
+  },
+  "pieData": {
+    "zh": [
+      { "type": "电商平台", "value": 28 },
+      { "type": "社交媒体", "value": 22 },
+      { "type": "搜索引擎", "value": 18 },
+      { "type": "直接访问", "value": 15 },
+      { "type": "邮件营销", "value": 10 },
+      { "type": "其他渠道", "value": 7 }
+    ],
+    "en": [
+      { "type": "E-commerce", "value": 28 },
+      { "type": "Social Media", "value": 22 },
+      { "type": "Search Engine", "value": 18 },
+      { "type": "Direct Access", "value": 15 },
+      { "type": "Email Marketing", "value": 10 },
+      { "type": "Other Channels", "value": 7 }
+    ]
+  },
+  "scatterData": {
+    "zh": [
+      { "x": 10, "y": 20, "size": 15, "category": "组别A" },
+      { "x": 20, "y": 30, "size": 25, "category": "组别B" },
+      { "x": 30, "y": 10, "size": 18, "category": "组别A" },
+      { "x": 40, "y": 40, "size": 30, "category": "组别B" },
+      { "x": 50, "y": 25, "size": 22, "category": "组别C" },
+      { "x": 15, "y": 35, "size": 20, "category": "组别A" },
+      { "x": 35, "y": 45, "size": 28, "category": "组别B" },
+      { "x": 45, "y": 15, "size": 16, "category": "组别C" },
+      { "x": 25, "y": 38, "size": 24, "category": "组别A" },
+      { "x": 55, "y": 32, "size": 26, "category": "组别C" }
+    ],
+    "en": [
+      { "x": 10, "y": 20, "size": 15, "category": "Group A" },
+      { "x": 20, "y": 30, "size": 25, "category": "Group B" },
+      { "x": 30, "y": 10, "size": 18, "category": "Group A" },
+      { "x": 40, "y": 40, "size": 30, "category": "Group B" },
+      { "x": 50, "y": 25, "size": 22, "category": "Group C" },
+      { "x": 15, "y": 35, "size": 20, "category": "Group A" },
+      { "x": 35, "y": 45, "size": 28, "category": "Group B" },
+      { "x": 45, "y": 15, "size": 16, "category": "Group C" },
+      { "x": 25, "y": 38, "size": 24, "category": "Group A" },
+      { "x": 55, "y": 32, "size": 26, "category": "Group C" }
+    ]
+  },
+  "areaData": {
+    "zh": [
+      { "month": "一月", "value": 30, "name": "数据A" },
+      { "month": "二月", "value": 40, "name": "数据A" },
+      { "month": "三月", "value": 35, "name": "数据A" },
+      { "month": "四月", "value": 50, "name": "数据A" },
+      { "month": "五月", "value": 49, "name": "数据A" },
+      { "month": "六月", "value": 60, "name": "数据A" },
+      { "month": "七月", "value": 70, "name": "数据A" },
+      { "month": "一月", "value": 20, "name": "数据B" },
+      { "month": "二月", "value": 28, "name": "数据B" },
+      { "month": "三月", "value": 38, "name": "数据B" },
+      { "month": "四月", "value": 34, "name": "数据B" },
+      { "month": "五月", "value": 44, "name": "数据B" },
+      { "month": "六月", "value": 52, "name": "数据B" },
+      { "month": "七月", "value": 58, "name": "数据B" },
+      { "month": "一月", "value": 15, "name": "数据C" },
+      { "month": "二月", "value": 25, "name": "数据C" },
+      { "month": "三月", "value": 30, "name": "数据C" },
+      { "month": "四月", "value": 38, "name": "数据C" },
+      { "month": "五月", "value": 42, "name": "数据C" },
+      { "month": "六月", "value": 48, "name": "数据C" },
+      { "month": "七月", "value": 55, "name": "数据C" }
+    ],
+    "en": [
+      { "month": "Jan", "value": 30, "name": "Dataset A" },
+      { "month": "Feb", "value": 40, "name": "Dataset A" },
+      { "month": "Mar", "value": 35, "name": "Dataset A" },
+      { "month": "Apr", "value": 50, "name": "Dataset A" },
+      { "month": "May", "value": 49, "name": "Dataset A" },
+      { "month": "Jun", "value": 60, "name": "Dataset A" },
+      { "month": "Jul", "value": 70, "name": "Dataset A" },
+      { "month": "Jan", "value": 20, "name": "Dataset B" },
+      { "month": "Feb", "value": 28, "name": "Dataset B" },
+      { "month": "Mar", "value": 38, "name": "Dataset B" },
+      { "month": "Apr", "value": 34, "name": "Dataset B" },
+      { "month": "May", "value": 44, "name": "Dataset B" },
+      { "month": "Jun", "value": 52, "name": "Dataset B" },
+      { "month": "Jul", "value": 58, "name": "Dataset B" },
+      { "month": "Jan", "value": 15, "name": "Dataset C" },
+      { "month": "Feb", "value": 25, "name": "Dataset C" },
+      { "month": "Mar", "value": 30, "name": "Dataset C" },
+      { "month": "Apr", "value": 38, "name": "Dataset C" },
+      { "month": "May", "value": 42, "name": "Dataset C" },
+      { "month": "Jun", "value": 48, "name": "Dataset C" },
+      { "month": "Jul", "value": 55, "name": "Dataset C" }
+    ]
+  },
+  "radarData": {
+    "zh": [
+      { "item": "设计", "score": 70, "user": "用户A" },
+      { "item": "开发", "score": 60, "user": "用户A" },
+      { "item": "测试", "score": 50, "user": "用户A" },
+      { "item": "运营", "score": 85, "user": "用户A" },
+      { "item": "产品", "score": 75, "user": "用户A" },
+      { "item": "设计", "score": 60, "user": "用户B" },
+      { "item": "开发", "score": 70, "user": "用户B" },
+      { "item": "测试", "score": 60, "user": "用户B" },
+      { "item": "运营", "score": 55, "user": "用户B" },
+      { "item": "产品", "score": 80, "user": "用户B" }
+    ],
+    "en": [
+      { "item": "Design", "score": 70, "user": "User A" },
+      { "item": "Development", "score": 60, "user": "User A" },
+      { "item": "Testing", "score": 50, "user": "User A" },
+      { "item": "Operations", "score": 85, "user": "User A" },
+      { "item": "Product", "score": 75, "user": "User A" },
+      { "item": "Design", "score": 60, "user": "User B" },
+      { "item": "Development", "score": 70, "user": "User B" },
+      { "item": "Testing", "score": 60, "user": "User B" },
+      { "item": "Operations", "score": 55, "user": "User B" },
+      { "item": "Product", "score": 80, "user": "User B" }
+    ]
+  }
+}

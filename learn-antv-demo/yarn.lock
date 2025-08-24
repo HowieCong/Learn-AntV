@@ -770,7 +770,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.27.1"
 
-"@babel/runtime@^7.25.6":
+"@babel/runtime@^7.25.6", "@babel/runtime@^7.27.6":
   version "7.28.3"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.28.3.tgz#75c5034b55ba868121668be5d5bb31cc64e6e61a"
   integrity sha512-9uIQ10o0WGdpP6GDhXcdOJPJuDgFtIDtN/9+ArJQ2NAfAmiuhTQdzkaTGR33v43GYS2UrSA0eX2pPPHoFVvpxA==
@@ -2651,6 +2651,20 @@ hasown@^2.0.0, hasown@^2.0.2:
   dependencies:
     function-bind "^1.1.2"
 
+html-parse-stringify@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/html-parse-stringify/-/html-parse-stringify-3.0.1.tgz#dfc1017347ce9f77c8141a507f233040c59c55d2"
+  integrity sha512-KknJ50kTInJ7qIScF3jeaFRpMpE8/lfiTdzf/twXyPBLAGrLRTmkz3AdTnKeh40X8k9L2fdYwEp/42WGXIRGcg==
+  dependencies:
+    void-elements "3.1.0"
+
+i18next@^25.4.1:
+  version "25.4.1"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-25.4.1.tgz#f01d8cd56d4a7d99f667a05dc11664963ef84216"
+  integrity sha512-sYJX4Ap0SSho1JZppKvc9BeacbpNCdNvKuXMYPUGjDH0XTTdVXmm7UU3l4bvF8nqh70lZNBeLboRYwItBf9jOw==
+  dependencies:
+    "@babel/runtime" "^7.27.6"
+
 iconv-lite@0.6:
   version "0.6.3"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.6.3.tgz#a52f80bf38da1952eb5c681790719871a1a72501"
@@ -3322,6 +3336,14 @@ react-dom@^19.1.1:
   dependencies:
     scheduler "^0.26.0"
 
+react-i18next@^15.7.2:
+  version "15.7.2"
+  resolved "https://registry.yarnpkg.com/react-i18next/-/react-i18next-15.7.2.tgz#2f3f12efbfc01957bf3636b8480e8cab878f6225"
+  integrity sha512-xJxq7ibnhUlMvd82lNC4te1GxGUMoM1A05KKyqoqsBXVZtEvZg/fz/fnVzdlY/hhQ3SpP/79qCocZOtICGhd3g==
+  dependencies:
+    "@babel/runtime" "^7.27.6"
+    html-parse-stringify "^3.0.1"
+
 react-refresh@^0.17.0:
   version "0.17.0"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.17.0.tgz#b7e579c3657f23d04eccbe4ad2e58a8ed51e7e53"
@@ -3902,6 +3924,11 @@ vite@^7.1.2:
     tinyglobby "^0.2.14"
   optionalDependencies:
     fsevents "~2.3.3"
+
+void-elements@3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/void-elements/-/void-elements-3.1.0.tgz#614f7fbf8d801f0bb5f0661f5b2f5785750e4f09"
+  integrity sha512-Dhxzh5HZuiHQhbvTW9AMetFfBHDMYpo23Uo9btPXgdYP+3T5S+p+jgNy7spra+veYhBP2dCSgxR/i2Y02h5/6w==
 
 which-boxed-primitive@^1.1.0, which-boxed-primitive@^1.1.1:
   version "1.1.1"
