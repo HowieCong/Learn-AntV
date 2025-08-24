@@ -1,0 +1,12 @@
+{
+  "title": "AntV 基础图表实战",
+  "bar": "柱状图",
+  "line": "折线图",
+  "pie": "饼图/环形图",
+  "scatter": "散点图",
+  "area": "面积图",
+  "radar": "雷达图",
+  "home": "首页",
+  "charts": "基础图表教学与实战",
+  "barChartExample": "AntV 柱状图示例"
+}

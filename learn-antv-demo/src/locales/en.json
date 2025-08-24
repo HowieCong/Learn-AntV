@@ -1,0 +1,12 @@
+{
+  "title": "AntV Basic Charts Demo",
+  "bar": "Bar Chart",
+  "line": "Line Chart",
+  "pie": "Pie/Donut Chart",
+  "scatter": "Scatter Chart",
+  "area": "Area Chart",
+  "radar": "Radar Chart",
+  "home": "Home",
+  "charts": "Basic Chart Tutorial",
+  "barChartExample": "AntV Bar Chart Example"
+}
