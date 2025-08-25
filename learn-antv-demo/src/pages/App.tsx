@@ -1,103 +1,75 @@
+import { Typography, Button, Card, Row, Col } from 'antd';
+import FooterBar from '../components/FooterBar';
 import { useTranslation } from 'react-i18next';
 
-function App() {
+const { Title, Paragraph } = Typography;
+
+export default function App() {
   const { t } = useTranslation();
+
   return (
     <div
       style={{
+        minHeight: '100vh',
         width: '100vw',
-        height: '100vh',
-        minHeight: 'calc(100vh - 12vh)',
+        background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
         display: 'flex',
         flexDirection: 'column',
-        alignItems: 'center',
-        justifyContent: 'center',
-        padding: '12vh 4vw 4vh 4vw',
-        boxSizing: 'border-box',
-        background: '#f8f9fa',
       }}
     >
-      {/* 主标题区域 */}
-      <div style={{
-        textAlign: 'center',
-        marginBottom: '6vh',
-        padding: '4vh 6vw',
-      }}>
-        <h1 style={{ 
-          fontSize: '3.5vw', 
-          fontWeight: 700, 
-          color: '#2c3e50', 
-          marginBottom: '2vh',
-          lineHeight: '1.2',
-        }}>
-          {t('title')}
-        </h1>
-        <p style={{ 
-          color: '#5a6c7d', 
-          fontSize: '1.4vw', 
-          margin: 0, 
-          textAlign: 'center', 
-          maxWidth: '60vw',
-          lineHeight: '1.6',
-        }}>
-          {t('homeWelcome') || 'Welcome to the AntV Chart Learning Platform!\nPlease use the navigation above to explore chart tutorials.'}
-        </p>
-      </div>
-
-      {/* 特色卡片区域 */}
-      <div style={{
-        display: 'flex',
-        flexWrap: 'wrap',
-        gap: '3vw',
-        justifyContent: 'center',
-        maxWidth: '90vw',
-      }}>
-        {/* 功能卡片 */}
-        {[
-          { title: '📊 Interactive Charts', desc: 'Explore various chart types' },
-          { title: '🌐 Multi-language', desc: 'Support Chinese & English' },
-          { title: '📱 Responsive Design', desc: 'Works on all devices' },
-        ].map((card, index) => (
-          <div key={index} style={{
-            background: '#fff',
-            border: '1px solid #e9ecef',
-            padding: '3vh 2.5vw',
-            textAlign: 'center',
-            minWidth: '25vw',
-            maxWidth: '28vw',
-            transition: 'all 0.3s ease',
-            cursor: 'pointer',
-          }}
-          onMouseEnter={(e) => {
-            e.currentTarget.style.transform = 'translateY(-0.5vh)';
-            e.currentTarget.style.boxShadow = '0 0.5vh 2vh rgba(0, 0, 0, 0.1)';
-          }}
-          onMouseLeave={(e) => {
-            e.currentTarget.style.transform = 'translateY(0)';
-            e.currentTarget.style.boxShadow = 'none';
-          }}
+      <Row justify="center" align="middle" style={{ flex: 1, minHeight: '80vh' }}>
+        <Col xs={22} sm={18} md={14} lg={10}>
+          <Card
+            style={{
+              borderRadius: 16,
+              boxShadow: '0 4px 24px rgba(0,0,0,0.08)',
+              textAlign: 'center',
+              padding: '4vh 2vw',
+              background: 'rgba(255,255,255,0.97)',
+            }}
+            bordered={false}
           >
-            <h3 style={{
-              fontSize: '1.8vw',
-              color: '#2c3e50',
-              marginBottom: '1.5vh',
-              fontWeight: 600,
-            }}>
-              {card.title}
-            </h3>
-            <p style={{
-              fontSize: '1.2vw',
-              color: '#5a6c7d',
-              margin: 0,
-              lineHeight: '1.4',
-            }}>
-              {card.desc}
-            </p>
-          </div>
-        ))}
-      </div>
+            <Title
+              level={1}
+              style={{
+                background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                WebkitBackgroundClip: 'text',
+                WebkitTextFillColor: 'transparent',
+                fontWeight: 800,
+                fontSize: 'clamp(2.2rem, 5vw, 3.5rem)',
+                marginBottom: '2vh',
+              }}
+            >
+              Learn AntV
+            </Title>
+            <Paragraph
+              style={{
+                color: '#555',
+                fontSize: 'clamp(1.1rem, 2vw, 1.3rem)',
+                marginBottom: '4vh',
+              }}
+            >
+              {t('欢迎来到 AntV 可视化学习平台！')}
+              <br />
+              {t('这里你可以系统学习 AntV 的基础与进阶用法，快速掌握数据可视化开发。')}
+            </Paragraph>
+            <Button
+              type="primary"
+              size="large"
+              style={{
+                borderRadius: 24,
+                padding: '1.2vh 5vw',
+                fontSize: 'clamp(1rem, 1.5vw, 1.2rem)',
+                fontWeight: 600,
+              }}
+              href="/charts"
+            >
+              {t('立即开始学习')}
+            </Button>
+          </Card>
+        </Col>
+      </Row>
+      <FooterBar />
     </div>
   );
 }
-
-export default App;
